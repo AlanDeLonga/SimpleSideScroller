@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>					
+			#myCanvas { border: 1px solid #9C9898; } 
+		</style>
+		<script src="js/animation.js"></script>
+		<script src="js/Controller.js"></script>
+		<script src="js/Model.js"></script>
+		<script src="js/View.js"></script>
+		<script src="js/Level.js"></script>
+		<script src="js/Actor.js"></script>
+		<script src="js/HealthBar.js"></script>
+		<script>
+			window.onload = function(){
+				new Controller("myCanvas");
+			}; 
+		</script>
+		
+	</head>
+	<body>
+		<canvas id="myCanvas" height="600" width="900" style="background: url('img/loadingScreen.png') repeat scroll 0% 0% transparent;"> </canvas>
+	</body>
+</html>
